@@ -1,4 +1,7 @@
+before you go down i edited this code to make it work on 12G graphics cards 
+-keep in mind use  face photo or crope the face area and use it , this make proccess use less memory 
 
+- when i used 
 ![ISID_](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID/assets/140084057/01393483-3145-4691-9daa-7ce9035c9bd0)
 
 
