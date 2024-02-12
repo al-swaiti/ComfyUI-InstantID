@@ -1,7 +1,13 @@
 before you go down i edited this code to make it work on 12G graphics cards 
 -keep in mind use  face photo or crope the face area and use it , this make proccess use less memory 
+watch this short video
+[![Video](http://img.youtube.com/vi/8gZo2bTwJQM/0.jpg)](http://www.youtube.com/watch?v=8gZo2bTwJQM)
 
-- when i used 
+- also you can modifiy  /ComfyUI/custom_nodes/ComfyUI-InstantID/InstantIDNode.py
+  to try the best image dimension that fit your needs in the part show below
+
+  ![image](https://github.com/al-swaiti/ComfyUI-InstantID/assets/95714669/c68b4f67-2e58-4027-bd4a-c81dd521e3a1)
+
 ![ISID_](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID/assets/140084057/01393483-3145-4691-9daa-7ce9035c9bd0)
 
 
