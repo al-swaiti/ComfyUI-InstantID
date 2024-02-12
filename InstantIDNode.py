@@ -26,7 +26,7 @@ def apply_style(style_name: str, positive: str, negative: str = "") -> tuple[str
         return p.replace("{prompt}", positive), n + ' ' + negative
 
 
-def resize_img(input_image, max_side=1280, min_side=1024, size=None, 
+def resize_img(input_image, max_side=1024, min_side=768, size=None, 
                pad_to_max_side=False, mode=Image.BILINEAR, base_pixel_number=64):
 
     image_np = (255. * input_image.cpu().numpy().squeeze()).clip(0, 255).astype(np.uint8)
@@ -189,6 +189,7 @@ class Ipadapter_instantidLoader_Node_Zho:
 
         # load adapter
         pipe.load_ip_adapter_instantid(face_adapter)
+        pipe.enable_model_cpu_offload()
 
         return [pipe]
 
